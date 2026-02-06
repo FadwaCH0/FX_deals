@@ -511,25 +511,7 @@ All the following fields are required:
    - DB connection issues
    - Technical errors
 
-### Logging
 
-The application uses SLF4J with Logback:
-
-```java
-// DEBUG level for development
-logging.level.fxdeals=DEBUG
-
-// INFO level for production
-logging.level.fxdeals=INFO
-```
-
-**Logs generated:**
-- ✅ Each deal creation attempt
-- ✅ Duplicate detection
-- ✅ Validation errors
-- ✅ Technical exceptions
-
----
 
 ## 🔄 Postman Tests
 
